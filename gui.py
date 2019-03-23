@@ -5,10 +5,9 @@ a=Button(root,justify = RIGHT)
 root.title("Tyrus's important items tracker")
 
 x = 'rupee/rupee_green.gif'
-y = 'ice/ice0.gif'
+global x
 
 def rupeeimage():
-    global x
     if x == 'rupee/rupee_grey.gif':
         x= 'rupee/rupee_green.gif'
     elif x == 'rupee/rupee_green.gif':
