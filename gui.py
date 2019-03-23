@@ -1,4 +1,4 @@
-from tkinter import (PhotoImage, Tk, Button, RIGHT, LEFT, TOP, BOTTOM)
+from tkinter import (PhotoImage, Tk, Button, RIGHT)
 
 root=Tk()
 a=Button(root,justify = RIGHT)
